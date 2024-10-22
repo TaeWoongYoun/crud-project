@@ -1,17 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <table>
+      <thead>
+        <tr>
+          <th>언어</th>
+          <th>분야</th>
+          <th>번호</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(value, index) in data" :key="index">
+          <td>{{ value.writer }}</td>
+          <td>{{ value.title }}</td>
+          <td>{{ value.content }}</td>
+        </tr>
+      </tbody>
+  </table>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import data from '@/data/index'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  data() {
+        return{
+            data: data
+        }
+    }
 }
+
 </script>
 
 <style>
