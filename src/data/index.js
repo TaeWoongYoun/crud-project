@@ -6,12 +6,12 @@ export default[
     },
     {
         writer: 'CSS',
-        title: 'WEB2',
+        title: 'WEB',
         content: '2'
     },
     {
         writer: 'JS',
-        title: 'WEB3',
+        title: 'WEB',
         content: '3'
     },
 ]

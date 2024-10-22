@@ -4,7 +4,7 @@ import AppCreate from '@/components/AppCreate.vue';
 
 const routes = [
     {
-        path: '/read',
+        path: '/',
         name: 'AppRead',
         component: AppRead
     },
