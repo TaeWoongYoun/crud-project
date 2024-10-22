@@ -31,3 +31,15 @@ export default {
     }
 }
 </script>
+
+<style>
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px 10px;
+    border: 1px solid black;    
+}
+</style>
