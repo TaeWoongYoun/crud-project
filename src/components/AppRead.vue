@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div id="app">
+        <h1>read page</h1>
         <table>
             <thead>
                 <tr>
@@ -10,9 +11,9 @@
             </thead>
             <tbody>
                 <tr v-for="(value, index) in data" :key="index">
-                    <td>{{ value.content }}</td>
-                    <td>{{ value.writer }}</td>
-                    <td>{{ value.title }}</td>
+                    <td>{{ value.num }}</td>
+                    <td>{{ value.language }}</td>
+                    <td>{{ value.field }}</td>
                 </tr>
             </tbody>
             <tfoot>
@@ -46,7 +47,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 table{
     margin: 0 auto;
     border-collapse: collapse;

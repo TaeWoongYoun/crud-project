@@ -1,17 +1,17 @@
 export default[
     {
-        writer: 'HTML',
-        title: 'WEB',
-        content: '1'
+        num: '1',
+        language: 'JavaScript',
+        field: 'Web Development'
     },
     {
-        writer: 'CSS',
-        title: 'WEB',
-        content: '2'
+        num: '2',
+        language: 'Python',
+        field: 'Data Science'
     },
     {
-        writer: 'JS',
-        title: 'WEB',
-        content: '3'
+        num: '3',
+        language: 'Java',
+        field: 'Mobile Development'
     },
 ]
